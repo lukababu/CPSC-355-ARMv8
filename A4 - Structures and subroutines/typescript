@@ -1,0 +1,34 @@
+Script started on Fri 17 Mar 2017 03:45:02 PM MDT
+[3J[H[2JLUKE SHELL SCRIPT
+=================
+Hello, luke.iremadze
+bash-4.3$ nano Method.s[C[C[C[C[C[C[C[C[C[Cls[Kpwdcd test[3@mkdir[C[C[C[C[C[4Pcd 355script[1Pcleargdb assign3[K4
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign4...(no debugging symbols found)...done.
+(gdb) run
+Starting program: /home/ugc/luke.iremadze/355/A4/assign4 
+Initial Box Values:
+Box first origin = (0, 0) width = 1 height = 1 area = 1
+Box second origin = (0, 0) width = 1 height = 1 area = 1
+Changed Box Values:
+Box first origin = (-5, 7) width = 1 height = 1 area = 1
+Box second origin = (0, 0) width = 3 height = 3 area = 9
+[Inferior 1 (process 392) exited with code 071]
+(gdb) quit
+bash-4.3$ exit
+exit
+
+Script done on Fri 17 Mar 2017 03:45:18 PM MDT

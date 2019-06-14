@@ -1,0 +1,47 @@
+Script started on Wed 26 Apr 2017 04:43:25 AM EDT
+[3J[H[2JLUKE SHELL SCRIPT
+=================
+Hello, luke.iremadze
+bash-4.3$ ./lukagcc assign4.s -o luka[C[C[C[C[C[C[C[C[C[C./luka[Kgcc assign4.s -o luka[C[C[C[C[C[C[C[C[C[C./luka[Kgcc assign4.s -o luka'[K[C[C[C[C[C[C[C[C[C[Ccd A4[K[3Plscd ../gcc struct.s -o luka[C[C[C[C[C[C[C[C[C[C[12Pcd Finalls[Kcd ../[4Plscd Finalgcc struct.s -o luka[C[C[C[C[C[C[C[C[C[Ccd ../[K[4Plscd A4gcc assign4.s -o luka'[K[C[C[C[C[C[C[C[C[C[C./luka[Kgcc assign4.s -o luka[C[C[C[C[C[C[C[C[C[C./luka[Kgcc assign4.s -o luka[C[C[C[C[C[C[C[C[C[C./luka[K[Kgdb assignment5
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assignment5...(no debugging symbols found)...done.
+(gdb) r
+Starting program: /home/ugc/luke.iremadze/355/A5/B/assignment5 
+usage: a5b mm dd yyyy
+[Inferior 1 (process 25088) exited normally]
+(gdb) r 14[K[K04 14 1996
+Starting program: /home/ugc/luke.iremadze/355/A5/B/assignment5 04 14 1996
+ April 14th, 1996
+ [Inferior 1 (process 25095) exited normally]
+(gdb) r 13 27 2017[1P 20176 2017
+Starting program: /home/ugc/luke.iremadze/355/A5/B/assignment5 13 26 2017
+usage: a5b mm dd yyyy
+[Inferior 1 (process 25097) exited normally]
+(gdb) r 12 31 0
+Starting program: /home/ugc/luke.iremadze/355/A5/B/assignment5 12 31 0
+usage: a5b mm dd yyyy
+[Inferior 1 (process 25098) exited normally]
+(gdb) r 12 31 0[K1
+Starting program: /home/ugc/luke.iremadze/355/A5/B/assignment5 12 31 1
+ December 31st, 1
+ [Inferior 1 (process 25189) exited normally]
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) quit
+bash-4.3$ exit
+exit
+
+Script done on Wed 26 Apr 2017 04:47:52 AM EDT

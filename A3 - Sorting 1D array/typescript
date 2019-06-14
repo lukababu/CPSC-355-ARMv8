@@ -1,0 +1,136 @@
+Script started on Fri 03 Mar 2017 01:38:04 PM MST
+[3J[H[2JLUKE SHELL SCRIPT
+=================
+Hello, luke.iremadze
+bash-4.3$ vim assign3.asm[K[2P./assign3gcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[C[2Pgcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[C[15P./assign3vim assign3.asm[C[C[C[C[C[C[C[C[C[C[Kvim assign3.asm[K[2P./assign3gcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[Ccd A3[K355gcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[C[17P./assign3gcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[C[2Pgcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[C[2Pgcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[C[17P./assign3gcc assign3.s -o assign3[C[C[C[C[C[C[C[C[C[Cm4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[Cls[Kcd A3355[4Pls[K[Kgdb assign3.asm[K[K[K[K
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign3...(no debugging symbols found)...done.
+(gdb) r
+Starting program: /home/ugc/luke.iremadze/355/A3/assign3 
+Entry 0 : 103
+Entry 1 : 198
+Entry 2 : 105
+Entry 3 : 115
+Entry 4 : 81
+Entry 5 : 255
+Entry 6 : 74
+Entry 7 : 236
+Entry 8 : 41
+Entry 9 : 205
+Entry 10 : 186
+Entry 11 : 171
+Entry 12 : 242
+Entry 13 : 251
+Entry 14 : 227
+Entry 15 : 70
+Entry 16 : 124
+Entry 17 : 194
+Entry 18 : 84
+Entry 19 : 248
+Entry 20 : 27
+Entry 21 : 232
+Entry 22 : 231
+Entry 23 : 141
+Entry 24 : 118
+Entry 25 : 90
+Entry 26 : 46
+Entry 27 : 99
+Entry 28 : 51
+Entry 29 : 159
+Entry 30 : 201
+Entry 31 : 154
+Entry 32 : 102
+Entry 33 : 50
+Entry 34 : 13
+Entry 35 : 183
+Entry 36 : 49
+Entry 37 : 88
+Entry 38 : 163
+Entry 39 : 90
+Entry 40 : 37
+Entry 41 : 93
+Entry 42 : 5
+Entry 43 : 23
+Entry 44 : 88
+Entry 45 : 233
+Entry 46 : 94
+Entry 47 : 212
+Entry 48 : 171
+Entry 49 : 178
+Sorted Array:
+Entry 0 : 5
+Entry 1 : 13
+Entry 2 : 23
+Entry 3 : 27
+Entry 4 : 37
+Entry 5 : 41
+Entry 6 : 46
+Entry 7 : 49
+Entry 8 : 50
+Entry 9 : 51
+Entry 10 : 70
+Entry 11 : 74
+Entry 12 : 81
+Entry 13 : 84
+Entry 14 : 88
+Entry 15 : 88
+Entry 16 : 90
+Entry 17 : 90
+Entry 18 : 93
+Entry 19 : 94
+Entry 20 : 99
+Entry 21 : 102
+Entry 22 : 103
+Entry 23 : 105
+Entry 24 : 115
+Entry 25 : 118
+Entry 26 : 124
+Entry 27 : 141
+Entry 28 : 154
+Entry 29 : 159
+Entry 30 : 163
+Entry 31 : 171
+Entry 32 : 171
+Entry 33 : 178
+Entry 34 : 183
+Entry 35 : 186
+Entry 36 : 194
+Entry 37 : 198
+Entry 38 : 201
+Entry 39 : 205
+Entry 40 : 212
+Entry 41 : 227
+Entry 42 : 231
+Entry 43 : 232
+Entry 44 : 233
+Entry 45 : 236
+Entry 46 : 242
+Entry 47 : 248
+Entry 48 : 251
+Entry 49 : 255
+
+Program received signal SIGBUS, Bus error.
+0x0000001b00000017 in ?? ()
+(gdb) exit[K[K[K[Kquit
+A debugging session is active.
+
+	Inferior 1 [process 32242] will be killed.
+
+Quit anyway? (y or n) y
+bash-4.3$ exit
+exit
+
+Script done on Fri 03 Mar 2017 01:41:31 PM MST

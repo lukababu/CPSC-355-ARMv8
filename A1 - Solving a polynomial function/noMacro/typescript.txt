@@ -1,0 +1,133 @@
+Script started on Mon 30 Jan 2017 06:39:30 PM EST
+[3J[H[2JLUKE SHELL SCRIPT
+=================
+Hello, luke.iremadze
+bash-4.3$ gb[Kdb[K[Kdb assignment1
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assignment1...(no debugging symbols found)...done.
+(gdb) b process
+Breakpoint 1 at 0x4005f8
+(gdb) r
+Starting program: /home/ugc/luke.iremadze/355/A1/assignment1 
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+(gdb) display/i $pc
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) ni
+0x00000000004005fc in process ()
+1: x/i $pc
+=> 0x4005fc <process+4>:	b.eq	0x40066c <finish>
+(gdb) c
+Continuing.
+x: -8 
+y: -73 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -7 
+y: -207 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -6 
+y: -263 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -5 
+y: -259 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -4 
+y: -213 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -3 
+y: -143 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -2 
+y: -67 
+Maximum: (-2,-67) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: -1 
+y: -3 
+Maximum: (-1,-3) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) c
+Continuing.
+x: 0 
+y: 31 
+Maximum: (0,31) 
+
+
+Breakpoint 1, 0x00000000004005f8 in process ()
+1: x/i $pc
+=> 0x4005f8 <process>:	cmp	x19, #0x6
+(gdb) quit[K[K[K
+A debugging session is active.
+
+	Inferior 1 [process 31651] will be killed.
+
+Quit anyway? (y or n) y
+bash-4.3$ exit
+exit
+
+Script done on Mon 30 Jan 2017 06:40:53 PM EST

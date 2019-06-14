@@ -1,0 +1,142 @@
+Script started on Mon 30 Jan 2017 09:17:42 PM MST
+[3J[H[2JLUKE SHELL SCRIPT
+=================
+Hello, luke.iremadze
+bash-4.3$ gdb nano typescript_s.txt[C[C[C[C[C[C[C[C[C[Cls[Kscript[1Pclear[3Plsnano typescript[C[C[C[C[C[C[C[C[C[Cls[Kscript[1Pcleargdb assignment1[C[C[C[C[C[C[C[C[C[C[10Pcleargdb assignment1[C[C[C[C[C[C[C[C[C[C[10Pcleargdb assignment1
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assignment1...(no debugging symbols found)...done.
+(gdb) b output
+Breakpoint 1 at 0x400660
+(gdb) r
+Starting program: /home/ugc/luke.iremadze/355/A1/macro/assignment1 
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: -8 
+y: -73 
+Maximum: (-8,-73) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: -7 
+y: -207 
+Maximum: (-8,-73) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) c
+Continuing.
+x: -6 
+y: -263 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: -5 
+y: -259 
+Maximum: (-8,-73) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) c
+Continuing.
+x: -4 
+y: -213 
+Maximum: (-8,-73) 
+
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: -3 
+y: -143 
+Maximum: (-8,-73) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: -2 
+y: -67 
+Maximum: (-2,-67) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: -1 
+y: -3 
+Maximum: (-1,-3) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: 0 
+y: 31 
+Maximum: (0,31) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: 1 
+y: 17 
+Maximum: (0,31) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) ni
+x: 2 
+y: -63 
+Maximum: (0,31) 
+
+0x0000000000400664 in output ()
+(gdb) c
+Continuing.
+
+Breakpoint 1, 0x0000000000400660 in output ()
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 19768] will be killed.
+
+Quit anyway? (y or n) y
+bash-4.3$ exit
+exit
+
+Script done on Mon 30 Jan 2017 09:20:59 PM MST

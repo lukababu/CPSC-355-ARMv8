@@ -1,0 +1,102 @@
+Script started on Fri 10 Feb 2017 03:39:56 PM MST
+[3J[H[2JLUKE SHELL SCRIPT
+=================
+Hello, luke.iremadze
+bash-4.3$ m4 assign2a.asm > assign2a.s
+bash-4.3$ gcc assign2a.s -io[K[Ko assing2[K[K[Kgn2a
+bash-4.3$ s[Kgdb assign2a
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign2a...(no debugging symbols found)...done.
+(gdb) display [K/i $pc
+1: x/i $pc
+<error: No registers.>
+(gdb) b loop
+Breakpoint 1 at 0x400688
+(gdb) b test
+Breakpoint 2 at 0x4006b4
+(gdb) r
+Starting program: /home/ugc/luke.iremadze/355/A2/assign2a 
+multiplier = 0x00000046 (70)   multiplicand = 0xfefefefe (-16843010) 
+
+
+Breakpoint 2, 0x00000000004006b4 in test ()
+1: x/i $pc
+=> 0x4006b4 <test>:	cmp	w23, #0x20
+(gdb) ni
+0x00000000004006b8 in test ()
+1: x/i $pc
+=> 0x4006b8 <test+4>:	b.lt	0x400688 <loop>
+(gdb) ni
+
+Breakpoint 1, 0x0000000000400688 in loop ()
+1: x/i $pc
+=> 0x400688 <loop>:	tst	w20, #0x1
+(gdb) ni
+0x000000000040068c in loop ()
+1: x/i $pc
+=> 0x40068c <loop+4>:	b.eq	0x400694 <jump_2>
+(gdb) ni
+0x0000000000400694 in jump_2 ()
+1: x/i $pc
+=> 0x400694 <jump_2>:	asr	w20, w20, #1
+(gdb) ni
+0x0000000000400698 in jump_2 ()
+1: x/i $pc
+=> 0x400698 <jump_2+4>:	tst	w22, #0x1
+(gdb) ni
+0x000000000040069c in jump_2 ()
+1: x/i $pc
+=> 0x40069c <jump_2+8>:	b.eq	0x4006a8 <elseIf_2>
+(gdb) ni
+0x00000000004006a8 in elseIf_2 ()
+1: x/i $pc
+=> 0x4006a8 <elseIf_2>:	and	w20, w20, #0x7fffffff
+(gdb) ni
+0x00000000004006ac in jump_3 ()
+1: x/i $pc
+=> 0x4006ac <jump_3>:	asr	w22, w22, #1
+(gdb) ni
+0x00000000004006b0 in jump_3 ()
+1: x/i $pc
+=> 0x4006b0 <jump_3+4>:	add	w23, w23, #0x1
+(gdb) ni
+
+Breakpoint 2, 0x00000000004006b4 in test ()
+1: x/i $pc
+=> 0x4006b4 <test>:	cmp	w23, #0x20
+(gdb) ni
+0x00000000004006b8 in test ()
+1: x/i $pc
+=> 0x4006b8 <test+4>:	b.lt	0x400688 <loop>
+(gdb) ni
+
+Breakpoint 1, 0x0000000000400688 in loop ()
+1: x/i $pc
+=> 0x400688 <loop>:	tst	w20, #0x1
+(gdb) delete
+Delete all breakpoints? (y or n) y
+(gdb) c
+Continuing.
+product = 0xffffffff   multiplier = 0xb9b9b974
+
+64-bit result = 0xffffffffb9b9b974 (-1179010700)
+
+[Inferior 1 (process 18188) exited normally]
+(gdb) quit
+bash-4.3$ exit
+exit
+
+Script done on Fri 10 Feb 2017 03:41:33 PM MST
